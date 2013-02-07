@@ -107,79 +107,35 @@
     <Content Include="Global.asax" />
     <Content Include="images\vendor\bootstrap\glyphicons-halflings-white.png" />
     <Content Include="images\vendor\bootstrap\glyphicons-halflings.png" />
-    <Content Include="scripts\app\app.js" />
-    <Content Include="scripts\app\controllers\main.js" />
+    <Content Include="scripts\app\myApp\myApp.js" />
+    <Content Include="scripts\app\myApp\aboutCtrl.js" />
+    <Content Include="scripts\app\myApp\contactCtrl.js" />
+    <Content Include="scripts\app\myApp\homeCtrl.js" />
     <Content Include="scripts\vendor\angular\angular.js" />
     <Content Include="scripts\vendor\angular\angular.min.js" />
     <Content Include="scripts\vendor\angular\es5-shim.min.js" />
     <Content Include="scripts\vendor\angular\json3.min.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-affix.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-alert.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-button.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-carousel.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-collapse.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-dropdown.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-modal.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-popover.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-scrollspy.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-tab.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-tooltip.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-transition.js" />
-    <Content Include="scripts\vendor\bootstrap\bootstrap-typeahead.js" />
+    <Content Include="scripts\vendor\bootstrap\bootstrap.js" />
+    <Content Include="scripts\vendor\bootstrap\bootstrap.min.js" />
     <Content Include="scripts\vendor\jquery.min.js" />
     <Content Include="scripts\vendor\modernizr.min.js" />
+    <Content Include="styles\app\main.css" />
+    <Content Include="styles\vendor\bootstrap\bootstrap-responsive.css" />
+    <Content Include="styles\vendor\bootstrap\bootstrap-responsive.min.css" />
+    <Content Include="styles\vendor\bootstrap\bootstrap.css" />
+    <Content Include="styles\vendor\bootstrap\bootstrap.min.css" />
     <Content Include="Web.config" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="BundleTransformer.Configuration.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="styles\app\main.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_accordion.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_alerts.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_breadcrumbs.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_button-groups.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_buttons.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_carousel.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_close.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_code.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_component-animations.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_dropdowns.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_font-awesome.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_forms.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_grid.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_hero-unit.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_labels-badges.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_layouts.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_mixins.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_modals.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_navbar.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_navs.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_pager.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_pagination.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_popovers.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_progress-bars.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_reset.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_responsive-1200px-min.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_responsive-767px-max.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_responsive-768px-979px.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_responsive-navbar.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_responsive-utilities.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_responsive.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_scaffolding.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_sprites.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_tables.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_thumbnails.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_tooltip.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_type.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_utilities.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_variables.scss" />
-    <Content Include="styles\vendor\bootstrap\compass_twitter_bootstrap\_wells.scss" />
-    <Content Include="styles\vendor\bootstrap\_compass_twitter_bootstrap.scss" />
-    <Content Include="styles\vendor\bootstrap\_compass_twitter_bootstrap_awesome.scss" />
-    <Content Include="styles\vendor\bootstrap\_compass_twitter_bootstrap_responsive.scss" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Home.cshtml" />
@@ -188,6 +144,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
