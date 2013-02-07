@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YeomanAngularBootstrapMvc4", "YeomanAngularBootstrapMvc4\YeomanAngularBootstrapMvc4.csproj", "{51E7D767-BEB5-43D0-91CF-2DFC4B49A8AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcAngularBootstrap", "AspNetMvcAngularBootstrap\AspNetMvcAngularBootstrap.csproj", "{51E7D767-BEB5-43D0-91CF-2DFC4B49A8AD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{64ADB0DB-390C-4A0D-B115-8B85357BAB2A}"
 	ProjectSection(SolutionItems) = preProject
